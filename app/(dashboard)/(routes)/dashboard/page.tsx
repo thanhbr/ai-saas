@@ -1,8 +1,10 @@
 import { Button } from '@/components/ui/button'
 import Image from 'next/image'
 
-export default function Home() {
+const DashboardPage = () => {
   return (
     <Button variant={'destructive'}>Click me</Button>
   )
 }
+
+export default DashboardPage
